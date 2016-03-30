@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appewtc.masterung.resortball.SignUpActivity">
+    tools:context="appewtc.masterung.resortball.SignUpActivity"
+    android:background="@drawable/bg500">
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,7 +36,9 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#82ffffff"
+            android:padding="20dp">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -45,7 +48,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="New Text"
+                    android:text="@string/user"
                     android:id="@+id/textView2"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
@@ -65,7 +68,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="New Text"
+                    android:text="@string/pass"
                     android:id="@+id/textView3"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
@@ -85,7 +88,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="New Text"
+                    android:text="@string/name"
                     android:id="@+id/textView4"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
@@ -105,7 +108,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="New Text"
+                    android:text="@string/id_card"
                     android:id="@+id/textView5"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
@@ -114,7 +117,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText4"
-                    android:layout_weight="2" />
+                    android:layout_weight="1" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -4,4 +4,9 @@
     <string name="signin">Sign In</string>
     <string name="signup">Sign Up</string>
 
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    <string name="name">ชื่อ</string>
+    <string name="id_card">รหัสประจำตัวประชาชน</string>
+
 </resources>
