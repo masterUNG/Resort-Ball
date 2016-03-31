@@ -41,6 +41,9 @@ public class SignUpActivity extends AppCompatActivity {
         //Check Space
         if (checkSpace()) {
             //Have Space
+            MyAlertDialog myAlertDialog = new MyAlertDialog();
+            myAlertDialog.myDialog(this, "มีช่องว่าง", "กรุณากรอกทุกช่องคะ");
+
         } else {
             //No Space
         }
