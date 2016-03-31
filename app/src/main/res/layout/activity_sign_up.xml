@@ -58,7 +58,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText"
-                    android:layout_weight="2" />
+                    android:layout_weight="2"
+                    android:inputType="text" />
             </LinearLayout>
 
             <LinearLayout
@@ -78,7 +79,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText2"
-                    android:layout_weight="2" />
+                    android:layout_weight="2"
+                    android:inputType="text" />
             </LinearLayout>
 
             <LinearLayout
@@ -98,7 +100,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText3"
-                    android:layout_weight="2" />
+                    android:layout_weight="2"
+                    android:inputType="text" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,7 +121,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText4"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:inputType="number" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
