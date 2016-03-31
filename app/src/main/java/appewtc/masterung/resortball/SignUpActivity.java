@@ -55,8 +55,10 @@ public class SignUpActivity extends AppCompatActivity {
             MyAlertDialog myAlertDialog = new MyAlertDialog();
             myAlertDialog.myDialog(this, "มีช่องว่าง", "กรุณากรอกทุกช่องคะ");
 
+        } else if (idCardString.length() != 13) {
+            MyAlertDialog myAlertDialog = new MyAlertDialog();
+            myAlertDialog.myDialog(this, "รหัสประจำตัวผิด", "รหัสประจำตัว ต้องมี 13 หลักเท่านั้น");
         } else {
-            //No Space
             updateToMySQL();
         }
 
