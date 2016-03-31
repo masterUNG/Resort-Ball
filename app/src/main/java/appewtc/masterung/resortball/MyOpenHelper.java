@@ -27,6 +27,7 @@ public class MyOpenHelper extends SQLiteOpenHelper{
             "Image2 text, " +
             "Image3 text, " +
             "Image4 text, " +
+            "Image5 text, " +
             "Description text, " +
             "Price text, " +
             "Item);";
