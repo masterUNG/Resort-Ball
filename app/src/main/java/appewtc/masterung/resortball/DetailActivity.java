@@ -1,5 +1,6 @@
 package appewtc.masterung.resortball;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -39,6 +40,15 @@ public class DetailActivity extends AppCompatActivity {
         showView();
 
     }   // Main Method
+
+    public void clickOrder(View view) {
+        Intent intent = new Intent(DetailActivity.this, OrderActivity.class);
+        startActivity(intent);
+    }   // clickOrder
+
+    public void clickBackDetail(View view) {
+        finish();
+    }
 
     public void clickNext(View view) {
 

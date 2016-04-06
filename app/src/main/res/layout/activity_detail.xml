@@ -114,13 +114,15 @@
             android:layout_height="wrap_content"
             android:text="Back"
             android:id="@+id/button5"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickBackDetail" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Order"
             android:id="@+id/button6"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickOrder" />
     </LinearLayout>
 </RelativeLayout>

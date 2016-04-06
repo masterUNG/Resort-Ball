@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ShowServiceActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".OrderActivity"></activity>
     </application>
 
 </manifest>
